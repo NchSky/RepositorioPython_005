@@ -28,7 +28,7 @@ def Personas():
     sum=0
     for i in range(n):
         nom=input("Ingrese nombre de la persona: ")
-        a=int(input("Ingrese la edad de la perdsona: "))
+        a=int(input("Ingrese la edad de la persona: "))
         sum=sum+a
 
     print("Promedio de las edades: " + str(sum/n))
